@@ -26,7 +26,7 @@ const inventory = [
  * @param {Item[]} items - array of items
  */
 function logNames(items) {
-  // TODO: use `forEach`
+  items.forEach(items => {console.log(items.name);})
 }
 
 /**
@@ -34,7 +34,7 @@ function logNames(items) {
  * @returns {string[]} an array of item names in all uppercase
  */
 function getUppercaseNames(items) {
-  // TODO: use `map`
+  items.map (itmes => {console.log(itmes.name.toUpperCase);} )
 }
 
 /**
